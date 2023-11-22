@@ -75,19 +75,17 @@ define( 'DB_COLLATE', getenv_docker('WORDPRESS_DB_COLLATE', '') );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         getenv_docker('WORDPRESS_AUTH_KEY',         '1567670f455cac9a744f12bd5a66bc3efa5f4614') );
-define( 'SECURE_AUTH_KEY',  getenv_docker('WORDPRESS_SECURE_AUTH_KEY',  '838c6ffd401e1b81d9a0c55c0be425d9b8c05a4a') );
-define( 'LOGGED_IN_KEY',    getenv_docker('WORDPRESS_LOGGED_IN_KEY',    '7138b26d7ffd8d7c3d1e018ce83130127b191ee2') );
-define( 'NONCE_KEY',        getenv_docker('WORDPRESS_NONCE_KEY',        '177a9b7e26fe446a90c00f7a9e8417233b0faf72') );
-define( 'AUTH_SALT',        getenv_docker('WORDPRESS_AUTH_SALT',        'cefcd5f08f3ec4f85720142b7c7807317b56d3ee') );
-define( 'SECURE_AUTH_SALT', getenv_docker('WORDPRESS_SECURE_AUTH_SALT', '520f94974d73288ddc9e1d64cef57ce46f351a54') );
-define( 'LOGGED_IN_SALT',   getenv_docker('WORDPRESS_LOGGED_IN_SALT',   'a4fbb85bebf7c23fd51573c66269e70a47a0f488') );
-define( 'NONCE_SALT',       getenv_docker('WORDPRESS_NONCE_SALT',       'a09ff683d5b787aaa58437ee66f113570adb6c9c') );
+define( 'AUTH_KEY',         getenv_docker('WORDPRESS_AUTH_KEY',         'a7c8eb07cc9cd8170feb7b992d2bc86fd46281fa') );
+define( 'SECURE_AUTH_KEY',  getenv_docker('WORDPRESS_SECURE_AUTH_KEY',  '21421b39e6933de6042ef9399f82f853846e9796') );
+define( 'LOGGED_IN_KEY',    getenv_docker('WORDPRESS_LOGGED_IN_KEY',    'bf0e79f5e00786e14bac6d45d668916ed3be3e04') );
+define( 'NONCE_KEY',        getenv_docker('WORDPRESS_NONCE_KEY',        'be152876344c95180ffed4933b279df5923b4d50') );
+define( 'AUTH_SALT',        getenv_docker('WORDPRESS_AUTH_SALT',        'd4af37a4d4f2b7cff63f9cac8b2e0f2bdbe8f066') );
+define( 'SECURE_AUTH_SALT', getenv_docker('WORDPRESS_SECURE_AUTH_SALT', '4f2a326c1696fa531b9aaeca02864492e9709b53') );
+define( 'LOGGED_IN_SALT',   getenv_docker('WORDPRESS_LOGGED_IN_SALT',   'c23786332e74233123637e1a0e507dff2b2f1ec3') );
+define( 'NONCE_SALT',       getenv_docker('WORDPRESS_NONCE_SALT',       'b4d572dd6bdabc88b8bf7d5d34347cf58314b4bb') );
 // (See also https://wordpress.stackexchange.com/a/152905/199287)
 
 /**#@-*/
-
-define( 'FS_METHOD', 'direct' );
 
 /**
  * WordPress database table prefix.
